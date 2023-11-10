@@ -23,6 +23,7 @@
 		60570E7A2AFE34340019C535 /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E792AFE34340019C535 /* Extension + UIView.swift */; };
 		60570E812AFE3D610019C535 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E802AFE3D610019C535 /* SecondaryButton.swift */; };
 		60570E832AFE486C0019C535 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E822AFE486C0019C535 /* OverviewNavBar.swift */; };
+		60570E852AFE48E70019C535 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E842AFE48E70019C535 /* BaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		60570E792AFE34340019C535 /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
 		60570E802AFE3D610019C535 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		60570E822AFE486C0019C535 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
+		60570E842AFE48E70019C535 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				60570E652AFE25550019C535 /* TabBarController.swift */,
 				60570E752AFE2E310019C535 /* NavigationController.swift */,
 				60570E772AFE31BA0019C535 /* BaseController.swift */,
+				60570E842AFE48E70019C535 /* BaseView.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				60570E732AFE26500019C535 /* Resources.swift in Sources */,
 				60570E7A2AFE34340019C535 /* Extension + UIView.swift in Sources */,
 				60570E762AFE2E310019C535 /* NavigationController.swift in Sources */,
+				60570E852AFE48E70019C535 /* BaseView.swift in Sources */,
 				60570E692AFE25A30019C535 /* SessionViewController.swift in Sources */,
 				60570E4C2AFE24010019C535 /* SceneDelegate.swift in Sources */,
 			);
