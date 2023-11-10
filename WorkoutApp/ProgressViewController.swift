@@ -10,5 +10,8 @@ import UIKit
 final class ProgressViewController: BaseController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        addNavBarButton(at: .left, with: Resources.NavBatItemTitles.Progress.leftItem)
+        addNavBarButton(at: .right, with: Resources.NavBatItemTitles.Progress.rightItem)
     }
 }

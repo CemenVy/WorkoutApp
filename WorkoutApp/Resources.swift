@@ -24,6 +24,17 @@ enum Resources {
             static let progress = "Progress"
             static let settings = "Settings"
     }
+    
+    enum NavBatItemTitles {
+        enum Session {
+            static let leftItem = "Pause"
+            static let rightItem = "Finish"
+        }
+        enum Progress {
+            static let leftItem = "Export"
+            static let rightItem = "Details"
+        }
+    }
 
     enum TabBarImages {
             static let overview = UIImage(named: "overview_tab")

@@ -20,6 +20,7 @@
 		60570E732AFE26500019C535 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E722AFE26500019C535 /* Resources.swift */; };
 		60570E762AFE2E310019C535 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E752AFE2E310019C535 /* NavigationController.swift */; };
 		60570E782AFE31BA0019C535 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E772AFE31BA0019C535 /* BaseController.swift */; };
+		60570E7A2AFE34340019C535 /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E792AFE34340019C535 /* Extension + UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		60570E722AFE26500019C535 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		60570E752AFE2E310019C535 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		60570E772AFE31BA0019C535 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		60570E792AFE34340019C535 /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +104,6 @@
 		60570E5F2AFE248C0019C535 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				60570E4D2AFE24010019C535 /* OverviewController.swift */,
-				60570E682AFE25A30019C535 /* SessionViewController.swift */,
-				60570E6A2AFE25B00019C535 /* ProgressViewController.swift */,
-				60570E6C2AFE25BF0019C535 /* SettingsViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -113,6 +111,10 @@
 		60570E642AFE25420019C535 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				60570E7B2AFE36010019C535 /* Overview */,
+				60570E7C2AFE361B0019C535 /* Session */,
+				60570E7D2AFE36280019C535 /* Progress */,
+				60570E7E2AFE36320019C535 /* Settings */,
 				60570E652AFE25550019C535 /* TabBarController.swift */,
 				60570E752AFE2E310019C535 /* NavigationController.swift */,
 				60570E772AFE31BA0019C535 /* BaseController.swift */,
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				60570E6F2AFE25FE0019C535 /* Extension + UIColor.swift */,
+				60570E792AFE34340019C535 /* Extension + UIView.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -134,6 +137,38 @@
 				60570E722AFE26500019C535 /* Resources.swift */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		60570E7B2AFE36010019C535 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				60570E4D2AFE24010019C535 /* OverviewController.swift */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+		60570E7C2AFE361B0019C535 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				60570E682AFE25A30019C535 /* SessionViewController.swift */,
+			);
+			name = Session;
+			sourceTree = "<group>";
+		};
+		60570E7D2AFE36280019C535 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				60570E6A2AFE25B00019C535 /* ProgressViewController.swift */,
+			);
+			name = Progress;
+			sourceTree = "<group>";
+		};
+		60570E7E2AFE36320019C535 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				60570E6C2AFE25BF0019C535 /* SettingsViewController.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +249,7 @@
 				60570E6B2AFE25B00019C535 /* ProgressViewController.swift in Sources */,
 				60570E6D2AFE25BF0019C535 /* SettingsViewController.swift in Sources */,
 				60570E732AFE26500019C535 /* Resources.swift in Sources */,
+				60570E7A2AFE34340019C535 /* Extension + UIView.swift in Sources */,
 				60570E762AFE2E310019C535 /* NavigationController.swift in Sources */,
 				60570E692AFE25A30019C535 /* SessionViewController.swift in Sources */,
 				60570E4C2AFE24010019C535 /* SceneDelegate.swift in Sources */,
