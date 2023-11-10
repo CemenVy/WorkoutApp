@@ -17,6 +17,8 @@ class BaseController: UIViewController {
         super.viewDidLoad()
         
         configure()
+        addViews()
+        layoutViews()
     }
 }
 

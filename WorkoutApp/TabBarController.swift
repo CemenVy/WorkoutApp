@@ -41,23 +41,23 @@ final class TabBarController: UITabBarController {
         let settingsNavController = NavigationController(rootViewController: SettingsViewController())
 
         overviewNavController.tabBarItem = UITabBarItem(
-            title: Resources.Titles.overview,
-            image: Resources.TabBarImages.overview,
+            title: Resources.Titles.TabBar.overview,
+            image: Resources.Images.TabBar.overview,
             tag: Tabs.overview.rawValue
         )
         sessionNavController.tabBarItem = UITabBarItem(
-            title: Resources.Titles.session,
-            image: Resources.TabBarImages.session,
+            title: Resources.Titles.TabBar.session,
+            image: Resources.Images.TabBar.session,
             tag: Tabs.session.rawValue
         )
         progressNavController.tabBarItem = UITabBarItem(
-            title: Resources.Titles.progress,
-            image: Resources.TabBarImages.progress,
+            title: Resources.Titles.TabBar.progress,
+            image: Resources.Images.TabBar.progress,
             tag: Tabs.progress.rawValue
         )
         settingsNavController.tabBarItem = UITabBarItem(
-            title: Resources.Titles.settings,
-            image: Resources.TabBarImages.settings,
+            title: Resources.Titles.TabBar.settings,
+            image: Resources.Images.TabBar.settings,
             tag: Tabs.settings.rawValue
         )
         

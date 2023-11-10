@@ -21,6 +21,8 @@
 		60570E762AFE2E310019C535 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E752AFE2E310019C535 /* NavigationController.swift */; };
 		60570E782AFE31BA0019C535 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E772AFE31BA0019C535 /* BaseController.swift */; };
 		60570E7A2AFE34340019C535 /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E792AFE34340019C535 /* Extension + UIView.swift */; };
+		60570E812AFE3D610019C535 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E802AFE3D610019C535 /* SecondaryButton.swift */; };
+		60570E832AFE486C0019C535 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E822AFE486C0019C535 /* OverviewNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		60570E752AFE2E310019C535 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		60570E772AFE31BA0019C535 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		60570E792AFE34340019C535 /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
+		60570E802AFE3D610019C535 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		60570E822AFE486C0019C535 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,7 @@
 		60570E7B2AFE36010019C535 /* Overview */ = {
 			isa = PBXGroup;
 			children = (
+				60570E7F2AFE3D490019C535 /* Views */,
 				60570E4D2AFE24010019C535 /* OverviewController.swift */,
 			);
 			path = Overview;
@@ -169,6 +174,15 @@
 				60570E6C2AFE25BF0019C535 /* SettingsViewController.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		60570E7F2AFE3D490019C535 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60570E802AFE3D610019C535 /* SecondaryButton.swift */,
+				60570E822AFE486C0019C535 /* OverviewNavBar.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,10 +257,12 @@
 			files = (
 				60570E782AFE31BA0019C535 /* BaseController.swift in Sources */,
 				60570E4E2AFE24010019C535 /* OverviewController.swift in Sources */,
+				60570E832AFE486C0019C535 /* OverviewNavBar.swift in Sources */,
 				60570E702AFE25FE0019C535 /* Extension + UIColor.swift in Sources */,
 				60570E662AFE25550019C535 /* TabBarController.swift in Sources */,
 				60570E4A2AFE24010019C535 /* AppDelegate.swift in Sources */,
 				60570E6B2AFE25B00019C535 /* ProgressViewController.swift in Sources */,
+				60570E812AFE3D610019C535 /* SecondaryButton.swift in Sources */,
 				60570E6D2AFE25BF0019C535 /* SettingsViewController.swift in Sources */,
 				60570E732AFE26500019C535 /* Resources.swift in Sources */,
 				60570E7A2AFE34340019C535 /* Extension + UIView.swift in Sources */,
