@@ -18,6 +18,8 @@
 		60570E6D2AFE25BF0019C535 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E6C2AFE25BF0019C535 /* SettingsViewController.swift */; };
 		60570E702AFE25FE0019C535 /* Extension + UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E6F2AFE25FE0019C535 /* Extension + UIColor.swift */; };
 		60570E732AFE26500019C535 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E722AFE26500019C535 /* Resources.swift */; };
+		60570E762AFE2E310019C535 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E752AFE2E310019C535 /* NavigationController.swift */; };
+		60570E782AFE31BA0019C535 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60570E772AFE31BA0019C535 /* BaseController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		60570E6C2AFE25BF0019C535 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		60570E6F2AFE25FE0019C535 /* Extension + UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIColor.swift"; sourceTree = "<group>"; };
 		60570E722AFE26500019C535 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		60570E752AFE2E310019C535 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		60570E772AFE31BA0019C535 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +72,7 @@
 			children = (
 				60570E712AFE26360019C535 /* Helpers */,
 				60570E6E2AFE25DF0019C535 /* Extension */,
-				60570E642AFE25420019C535 /* Views */,
+				60570E642AFE25420019C535 /* Controllers */,
 				60570E5D2AFE24250019C535 /* App */,
 				60570E5F2AFE248C0019C535 /* ViewControllers */,
 				60570E522AFE24020019C535 /* Assets.xcassets */,
@@ -106,12 +110,14 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
-		60570E642AFE25420019C535 /* Views */ = {
+		60570E642AFE25420019C535 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				60570E652AFE25550019C535 /* TabBarController.swift */,
+				60570E752AFE2E310019C535 /* NavigationController.swift */,
+				60570E772AFE31BA0019C535 /* BaseController.swift */,
 			);
-			name = Views;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		60570E6E2AFE25DF0019C535 /* Extension */ = {
@@ -200,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60570E782AFE31BA0019C535 /* BaseController.swift in Sources */,
 				60570E4E2AFE24010019C535 /* OverviewController.swift in Sources */,
 				60570E702AFE25FE0019C535 /* Extension + UIColor.swift in Sources */,
 				60570E662AFE25550019C535 /* TabBarController.swift in Sources */,
@@ -207,6 +214,7 @@
 				60570E6B2AFE25B00019C535 /* ProgressViewController.swift in Sources */,
 				60570E6D2AFE25BF0019C535 /* SettingsViewController.swift in Sources */,
 				60570E732AFE26500019C535 /* Resources.swift in Sources */,
+				60570E762AFE2E310019C535 /* NavigationController.swift in Sources */,
 				60570E692AFE25A30019C535 /* SessionViewController.swift in Sources */,
 				60570E4C2AFE24010019C535 /* SceneDelegate.swift in Sources */,
 			);

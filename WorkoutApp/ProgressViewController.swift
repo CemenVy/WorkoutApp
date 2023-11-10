@@ -7,6 +7,8 @@
 
 import UIKit
 
-final class ProgressViewController: UIViewController {
-    
+final class ProgressViewController: BaseController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }

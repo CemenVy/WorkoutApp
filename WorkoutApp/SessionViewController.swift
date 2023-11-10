@@ -7,6 +7,8 @@
 
 import UIKit
 
-final class SessionViewController: UIViewController {
-    
+final class SessionViewController: BaseController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }
